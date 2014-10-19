@@ -1,0 +1,71 @@
+[19-Oct-2014 17:42:54 Europe/Berlin] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'baharatsiparis'@'localhost' (using password: NO) in C:\www\baharatsiparis\htdocs\contenido\classes\db\class.db.driver.mysqli.php on line 120
+[2014-10-19 19:51:28] Error: "Error: Can't include C:/www/baharatsiparis/htdocs/cms/classes/class.background_generator.php" at cInclude() called in include.con_editcontent.php(136) : eval()'d code(231)
+	cInclude() called in file include.con_editcontent.php(136) : eval()'d code(231)
+	eval() called in file include.con_editcontent.php(136)
+	include() called in file include.front_content.php(447)
+	include() called in file front_content.php(36)
+
+[19-Oct-2014 19:51:28 Europe/Berlin] PHP Fatal error:  Error: Can't include C:/www/baharatsiparis/htdocs/cms/classes/class.background_generator.php in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1377
+[19-Oct-2014 19:53:52 Europe/Berlin] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'Unable to load template file 'C:/www/baharatsiparis/htdocs/cms/data/modules/content_product_edit/template/select.tpl'' in C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\smarty_source\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\classes\class.smarty.wrapper.php(39): Smarty_Internal_TemplateBase->fetch('C:/www/baharats...', NULL, NULL, NULL, false, true, false)
+#1 C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136) : eval()'d code(302): cSmartyWrapper->fetch('select.tpl')
+#2 C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136): eval()
+#3 C:\www\baharatsiparis\htdocs\contenido\includes\frontend\include.front_content.php(447): include('C:\www\baharats...')
+#4 C:\www\baharatsiparis\htdocs\contenido\external\backendedit\front_content.php(36): include('C:\www\baharats...')
+#5 {main}
+  thrown in C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\smarty_source\sysplugins\smarty_internal_templatebase.php on line 127
+[19-Oct-2014 19:54:33 Europe/Berlin] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'Unable to load template file 'C:/www/baharatsiparis/htdocs/cms/data/modules/content_product_edit/template/select.tpl'' in C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\smarty_source\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\classes\class.smarty.wrapper.php(39): Smarty_Internal_TemplateBase->fetch('C:/www/baharats...', NULL, NULL, NULL, false, true, false)
+#1 C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136) : eval()'d code(302): cSmartyWrapper->fetch('select.tpl')
+#2 C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136): eval()
+#3 C:\www\baharatsiparis\htdocs\contenido\includes\frontend\include.front_content.php(447): include('C:\www\baharats...')
+#4 C:\www\baharatsiparis\htdocs\contenido\external\backendedit\front_content.php(36): include('C:\www\baharats...')
+#5 {main}
+  thrown in C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\smarty_source\sysplugins\smarty_internal_templatebase.php on line 127
+[19-Oct-2014 19:55:21 Europe/Berlin] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'Unable to load template file 'C:/www/baharatsiparis/htdocs/cms/data/modules/content_product_edit/template/select.tpl'' in C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\smarty_source\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\classes\class.smarty.wrapper.php(39): Smarty_Internal_TemplateBase->fetch('C:/www/baharats...', NULL, NULL, NULL, false, true, false)
+#1 C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136) : eval()'d code(302): cSmartyWrapper->fetch('select.tpl')
+#2 C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136): eval()
+#3 C:\www\baharatsiparis\htdocs\contenido\includes\frontend\include.front_content.php(447): include('C:\www\baharats...')
+#4 C:\www\baharatsiparis\htdocs\contenido\external\backendedit\front_content.php(36): include('C:\www\baharats...')
+#5 {main}
+  thrown in C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\smarty_source\sysplugins\smarty_internal_templatebase.php on line 127
+[19-Oct-2014 19:56:47 Europe/Berlin] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'Unable to load template file 'C:/www/baharatsiparis/htdocs/cms/data/modules/content_product_edit/template/select.tpl'' in C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\smarty_source\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\classes\class.smarty.wrapper.php(39): Smarty_Internal_TemplateBase->fetch('C:/www/baharats...', NULL, NULL, NULL, false, true, false)
+#1 C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136) : eval()'d code(298): cSmartyWrapper->fetch('select.tpl')
+#2 C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136): eval()
+#3 C:\www\baharatsiparis\htdocs\contenido\includes\frontend\include.front_content.php(447): include('C:\www\baharats...')
+#4 C:\www\baharatsiparis\htdocs\contenido\external\backendedit\front_content.php(36): include('C:\www\baharats...')
+#5 {main}
+  thrown in C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\smarty_source\sysplugins\smarty_internal_templatebase.php on line 127
+[19-Oct-2014 19:56:54 Europe/Berlin] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'Unable to load template file 'C:/www/baharatsiparis/htdocs/cms/data/modules/content_product_edit/template/select.tpl'' in C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\smarty_source\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\classes\class.smarty.wrapper.php(39): Smarty_Internal_TemplateBase->fetch('C:/www/baharats...', NULL, NULL, NULL, false, true, false)
+#1 C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136) : eval()'d code(298): cSmartyWrapper->fetch('select.tpl')
+#2 C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136): eval()
+#3 C:\www\baharatsiparis\htdocs\contenido\includes\frontend\include.front_content.php(447): include('C:\www\baharats...')
+#4 C:\www\baharatsiparis\htdocs\contenido\external\backendedit\front_content.php(36): include('C:\www\baharats...')
+#5 {main}
+  thrown in C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\smarty_source\sysplugins\smarty_internal_templatebase.php on line 127
+[19-Oct-2014 19:57:02 Europe/Berlin] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'Unable to load template file 'C:/www/baharatsiparis/htdocs/cms/data/modules/content_product_edit/template/select.tpl'' in C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\smarty_source\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\classes\class.smarty.wrapper.php(39): Smarty_Internal_TemplateBase->fetch('C:/www/baharats...', NULL, NULL, NULL, false, true, false)
+#1 C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136) : eval()'d code(298): cSmartyWrapper->fetch('select.tpl')
+#2 C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136): eval()
+#3 C:\www\baharatsiparis\htdocs\contenido\includes\frontend\include.front_content.php(447): include('C:\www\baharats...')
+#4 C:\www\baharatsiparis\htdocs\contenido\external\backendedit\front_content.php(36): include('C:\www\baharats...')
+#5 {main}
+  thrown in C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\smarty_source\sysplugins\smarty_internal_templatebase.php on line 127
+[19-Oct-2014 19:57:06 Europe/Berlin] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'Unable to load template file 'C:/www/baharatsiparis/htdocs/cms/data/modules/content_product_edit/template/select.tpl'' in C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\smarty_source\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\classes\class.smarty.wrapper.php(39): Smarty_Internal_TemplateBase->fetch('C:/www/baharats...', NULL, NULL, NULL, false, true, false)
+#1 C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136) : eval()'d code(298): cSmartyWrapper->fetch('select.tpl')
+#2 C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136): eval()
+#3 C:\www\baharatsiparis\htdocs\contenido\includes\frontend\include.front_content.php(447): include('C:\www\baharats...')
+#4 C:\www\baharatsiparis\htdocs\contenido\external\backendedit\front_content.php(36): include('C:\www\baharats...')
+#5 {main}
+  thrown in C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\smarty_source\sysplugins\smarty_internal_templatebase.php on line 127

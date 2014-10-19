@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<version xml:lang="de"><head><version_id>1_3_1413740023</version_id><type>layout</type><date>2014-10-19 19:33:43</date><author>sysadmin</author><client>1</client><created>2014-10-19 19:30:30</created><lastmodified>2014-10-19 19:31:42</lastmodified></head><body><name><![CDATA[default]]></name><description/><code><![CDATA[<!doctype html>
+<!-- standard layout -->
+<html lang="de">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <title><container id="3" name="head_title" types="header" mode="fixed" default="head_title">head_title</container></title>
+
+        <container id="666" name="head_favicon" types="header" mode="fixed" default="head_favicon">head_favicon</container>
+        <!-- link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png"-->
+
+        <link rel="stylesheet" media="screen" href="css/reset.css">
+        <link rel="stylesheet" media="screen" href="css/main.css">
+        <link rel="stylesheet" media="screen" href="css/media.css">
+        <!--[if lt IE 9]>
+        <link rel="stylesheet" href="css/mainie.css">
+        <![endif]-->
+
+        <container id="15" name="header_scripts_and_styles" types="header" mode="fixed" default="header_scripts_and_styles">header_scripts_and_styles</container>
+
+    </head>
+
+    <body>
+        <!-- page -->
+        <div id="page">
+
+            <!--  content -->
+            <div id="content">
+                <container id="140" name="content" types="content" mode="optional" default="">content</container>
+                <br />
+                <container id="150" name="content" types="content" mode="optional" default="">content</container>
+                <br />
+                <container id="160" name="content" types="content" mode="optional" default="">content</container>
+                <br />
+                <container id="170" name="content" types="content" mode="optional" default="">content</container>
+                <br />
+                <container id="180" name="content" types="content" mode="optional" default="">content</container>
+                <br />
+                <container id="190" name="content" types="content" mode="optional" default="">content</container>
+                <br />
+                <container id="200" name="content" types="content" mode="optional" default="">content</container>
+                <br />
+                <container id="210" name="configuration" types="configuration" mode="optional" default="">configuration</container>
+            </div>
+            <!--  content -->
+
+            <div class="clear"></div>
+
+        </div>
+        <!-- /page -->
+
+    <container id="230" name="script_tracker_google" types="script" mode="fixed" default="script_tracker_google">script_tracker_google</container>
+    </body>
+
+</html>]]></code><deletable><![CDATA[1]]></deletable></body></version>

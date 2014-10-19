@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<version xml:lang="de"><head><version_id>1_2_1413739902</version_id><type>layout</type><date>2014-10-19 19:31:42</date><author>sysadmin</author><client>1</client><created>2014-10-19 19:30:30</created><lastmodified>2014-10-19 19:30:42</lastmodified></head><body><name><![CDATA[standard]]></name><description/><code><![CDATA[<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <title><container id="3" name="head_title" types="header" mode="fixed" default="head_title">head_title</container></title>
+
+    <container id="666" name="head_favicon" types="header" mode="fixed" default="head_favicon">head_favicon</container>
+    <!-- link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png"-->
+
+    <container id="15" name="header_scripts_and_styles" types="header" mode="fixed" default="header_scripts_and_styles">header_scripts_and_styles</container>
+
+</head>
+
+<body class="standard-page">
+
+     <!-- #container -->
+    <div id="container">
+
+        <!-- header -->
+        <header>
+
+            <!-- wrapper -->
+            <div class="wrapper">
+
+                <!-- script cookie directive -->
+                <container id="4" name="script_cookie_directive" types="script" mode="fixed" default="script_cookie_directive">script_cookie_directive</container>
+                <!-- /script cookie directive -->
+
+                <!-- logo -->
+                <container id="1" name="content_logo" types="content" mode="optional" default="content_logo">content_logo</container>
+                <!-- /logo -->
+
+                <!-- top-search -->
+                <container id="8" name="navigation_searchform_top" types="navigation" mode="optional" default="navigation_searchform_top">navigation_searchform_top</container>
+                <!-- /top-search -->
+
+                <!-- nav -->
+                <nav>
+                    <container id="20" name="navigation_top" types="navigation" mode="optional" default="navigation_top">navigation_top</container>
+                    <div class="mobile-button">
+                        <span>Menu</span>
+                    </div>
+                </nav>
+                <!-- /nav -->
+
+                <!-- languages -->
+                <div class="languages">
+                    <container id="30" name="navigation_lang_changer" types="content" mode="optional" default="navigation_lang_changer">navigation_lang_changer</container>
+                </div>
+
+                <!-- website-areas -->
+                <div class="websites-areas">
+                    <container id="35" name="navigation_targer_group_switcher" types="navigation" mode="optional" default="navigation_targer_group_switcher">navigation_targer_group_switcher</container>
+                </div>
+                <!-- /website-areas -->
+
+                <!-- slogan -->
+                <div class="slogan">
+                    <container id="40" name="content_slogan" types="content" mode="optional" default="content_slogan">content_slogan</container>
+                </div>
+                <!-- /slogan -->
+
+            </div>
+            <!-- /wrapper -->
+
+            <!-- init header -->
+            <script>
+                bHeader.init();
+            </script>
+            <!-- /init header -->
+
+           </header>
+        <!-- /header -->
+
+         <!-- page sub navigation -->
+        <container id="43" name="content_page_sub_navigation" types="content" mode="optional" default="content_page_sub_navigation">content_page_sub_navigation</container>
+
+            <!-- page wrapper -->
+            <div class="wrapper">
+                <container id="44" name="navigation_page_sub_navigation" types="navigation" mode="optional" default="navigation_page_sub_navigation">navigation_page_sub_navigation</container>
+
+                <!-- banner -->
+                <container id="42" name="content_product_banner" types="content" mode="optional" default="content_product_banner">content_product_banner</container>
+                <!-- /banner -->
+            </div>
+            <!-- /page wrapper -->
+
+            <script>
+                bSubNavi.init();
+            </script>
+
+        </section>
+        <!-- /page page sub navigation -->
+
+
+        <!-- standard module 1 -->
+        <container id="45" name="standard_content_1" types="standard" mode="optional">standard_content_1</container>
+        <!-- /standard module 1 -->
+
+        <!-- standard module 2 -->
+        <container id="50" name="standard_content_2" types="standard" mode="optional">standard_content_2</container>
+        <!-- /standard module 2 -->
+
+        <!-- standard module 3 -->
+        <container id="55" name="standard_content_3" types="standard" mode="optional">standard_content_3</container>
+        <!-- /standard module 3 -->
+
+        <!-- standard module 4 -->
+        <container id="60" name="standard_content_4" types="standard" mode="optional">standard_content_4</container>
+        <!-- /standard module 4 -->
+
+        <!-- standard module 5 -->
+        <container id="65" name="standard_content_5" types="standard" mode="optional">standard_content_5</container>
+        <!-- /standard module 5 -->
+
+        <!-- standard module 6 -->
+        <container id="70" name="standard_content_6" types="standard" mode="optional">standard_content_6</container>
+        <!-- /standard module 6 -->
+
+        <!-- standard module 7 -->
+        <container id="75" name="standard_content_7" types="standard" mode="optional">standard_content_7</container>
+        <!-- /standard module 7 -->
+
+        <!-- standard module 8 -->
+        <container id="80" name="standard_content_8" types="standard" mode="optional">standard_content_8</container>
+        <!-- /standard module 8 -->
+
+        <!-- standard module 9 -->
+        <container id="85" name="standard_content_9" types="standard" mode="optional">standard_content_9</container>
+        <!-- /standard module 9 -->
+
+        <!-- standard module 10 -->
+        <container id="90" name="standard_content_10" types="standard" mode="optional">standard_content_10</container>
+        <!-- /standard module 10 -->
+
+        <!-- standard module 11 -->
+        <container id="95" name="standard_content_11" types="standard" mode="optional">standard_content_11</container>
+        <!-- /standard module 11 -->
+
+        <!-- megamenu category article content -->
+        <container id="105" name="content_megamenu_category_article" types="content" mode="optional">content_megamenu_category_article</container>
+        <!-- /megamenu category article content -->
+
+        <!-- footer -->
+        <footer>
+
+            <!-- footer wrapper -->
+            <div class="wrapper">
+
+                <!-- contact -->
+                <div class="contact-area">
+                    <!-- content_article_include -->
+                    <container id="502" name="content_article_include" types="content" mode="fixed" default="content_article_include">content_article_include</container>
+                    <!-- /content_article_include -->
+                </div>
+                <!-- /contact -->
+
+                <!-- logo -->
+                <a class="logo" title="Baumit" href="/">Baumit</a>
+                <!-- /logo -->
+
+                <!-- links -->
+                <nav class="links">
+                     <container id="210" name="footer_links" types="footer" mode="fixed" default="footer_links">footer_links</container>
+                </nav>
+                <!-- /links -->
+
+                <!-- map -->
+                <div class="map">
+                    <container id="220" name="footer_map" types="footer" mode="fixed" default="footer_map">footer_map</container>
+                </div>
+                <!-- /map -->
+
+            </div>
+            <!-- /footer wrapper -->
+
+            <!-- init header -->
+            <script>
+                bFooter.init();
+            </script>
+            <!-- /init header -->
+
+            <container id="230" name="script_tracker_google" types="script" mode="fixed" default="script_tracker_google">script_tracker_google</container>
+
+        </footer>
+        <!-- /footer -->
+
+     </div>
+    <!-- /#container -->
+
+</body>
+</html>]]></code><deletable><![CDATA[1]]></deletable></body></version>
