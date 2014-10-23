@@ -69,3 +69,7 @@ Stack trace:
 #4 C:\www\baharatsiparis\htdocs\contenido\external\backendedit\front_content.php(36): include('C:\www\baharats...')
 #5 {main}
   thrown in C:\www\baharatsiparis\htdocs\contenido\plugins\smarty\smarty_source\sysplugins\smarty_internal_templatebase.php on line 127
+[22-Oct-2014 21:45:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136) : eval()'d code:213) in C:\www\baharatsiparis\htdocs\contenido\classes\content_types\class.content.type.imgeditor.php on line 150
+[22-Oct-2014 21:46:43 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136) : eval()'d code:213) in C:\www\baharatsiparis\htdocs\contenido\classes\content_types\class.content.type.imgeditor.php on line 150
+[22-Oct-2014 21:47:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136) : eval()'d code:213) in C:\www\baharatsiparis\htdocs\contenido\classes\content_types\class.content.type.imgeditor.php on line 150
+[22-Oct-2014 22:21:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in C:\www\baharatsiparis\htdocs\contenido\classes\module\class.module.handler.php(1034) : eval()'d code on line 40

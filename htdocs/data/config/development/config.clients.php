@@ -1,8 +1,8 @@
 <?php
 global $cfgClient;
 
-/* CONTENIDO Demo */
-$cfgClient[1]["name"] = "CONTENIDO Demo";
+/* cms */
+$cfgClient[1]["name"] = "cms";
 $cfgClient[1]["errsite"]["idcat"] = "2";
 $cfgClient[1]["errsite"]["idart"] = "15";
 $cfgClient[1]["images"] = "http://baharatsiparis.local/cms/images/";
