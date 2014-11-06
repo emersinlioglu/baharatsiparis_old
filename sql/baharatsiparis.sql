@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 19. Okt 2014 um 21:03
+-- Erstellungszeit: 06. Nov 2014 um 22:13
 -- Server Version: 5.6.16
 -- PHP-Version: 5.5.9
 
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `con_actionlog` (
   `idcatart` int(11) NOT NULL DEFAULT '0',
   `logtimestamp` datetime DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`idlog`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=62 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=133 ;
 
 --
 -- Daten für Tabelle `con_actionlog`
@@ -102,7 +102,78 @@ INSERT INTO `con_actionlog` (`idlog`, `user_id`, `idclient`, `idlang`, `idaction
 (58, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 1, '2014-10-19 20:53:05'),
 (59, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 1, '2014-10-19 20:53:07'),
 (60, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 1, '2014-10-19 20:53:18'),
-(61, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 1, '2014-10-19 20:54:22');
+(61, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 1, '2014-10-19 20:54:22'),
+(62, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 60, 0, '2014-11-06 21:54:24'),
+(63, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 60, 0, '2014-11-06 21:54:34'),
+(64, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 60, 0, '2014-11-06 21:54:36'),
+(65, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 328, 0, '2014-11-06 21:55:54'),
+(66, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 23, 0, '2014-11-06 21:56:04'),
+(67, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 23, 0, '2014-11-06 21:56:05'),
+(68, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 812, 0, '2014-11-06 21:56:32'),
+(69, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 23, 0, '2014-11-06 21:57:16'),
+(70, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 328, 0, '2014-11-06 21:57:19'),
+(71, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 23, 0, '2014-11-06 21:57:31'),
+(72, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 23, 0, '2014-11-06 21:57:40'),
+(73, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 60, 0, '2014-11-06 21:58:14'),
+(74, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 54, 0, '2014-11-06 21:58:25'),
+(75, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 0, 0, '2014-11-06 21:58:40'),
+(76, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 55, 0, '2014-11-06 21:58:41'),
+(77, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 2, '2014-11-06 21:58:45'),
+(78, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 404, 0, '2014-11-06 21:59:08'),
+(79, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 404, 0, '2014-11-06 21:59:11'),
+(80, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 3, '2014-11-06 21:59:26'),
+(81, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 3, '2014-11-06 22:00:08'),
+(82, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 3, '2014-11-06 22:00:20'),
+(83, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 5, 3, '2014-11-06 22:00:24'),
+(84, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 55, 3, '2014-11-06 22:00:34'),
+(85, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 55, 3, '2014-11-06 22:00:39'),
+(86, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 3, '2014-11-06 22:00:45'),
+(87, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 4, '2014-11-06 22:00:50'),
+(88, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 4, '2014-11-06 22:01:36'),
+(89, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 5, 4, '2014-11-06 22:01:38'),
+(90, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 55, 4, '2014-11-06 22:01:55'),
+(91, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 55, 4, '2014-11-06 22:02:00'),
+(92, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 2, 3, '2014-11-06 22:02:04'),
+(93, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 2, '2014-11-06 22:02:10'),
+(94, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 0, 0, '2014-11-06 22:02:46'),
+(95, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 2, '2014-11-06 22:02:48'),
+(96, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 10, 0, '2014-11-06 22:04:01'),
+(97, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 10, 0, '2014-11-06 22:04:24'),
+(98, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 0, 0, '2014-11-06 22:04:31'),
+(99, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 1, '2014-11-06 22:04:41'),
+(100, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 5, 1, '2014-11-06 22:04:44'),
+(101, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 60, 0, '2014-11-06 22:05:07'),
+(102, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 1, '2014-11-06 22:05:14'),
+(103, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 5, 1, '2014-11-06 22:05:18'),
+(104, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 55, 1, '2014-11-06 22:05:23'),
+(105, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 60, 0, '2014-11-06 22:05:29'),
+(106, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 3, '2014-11-06 22:05:35'),
+(107, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 5, 3, '2014-11-06 22:05:38'),
+(108, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 55, 3, '2014-11-06 22:05:46'),
+(109, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 5, '2014-11-06 22:05:54'),
+(110, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 5, 5, '2014-11-06 22:05:57'),
+(111, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 55, 5, '2014-11-06 22:06:04'),
+(112, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 4, '2014-11-06 22:06:23'),
+(113, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 5, 4, '2014-11-06 22:06:26'),
+(114, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 55, 4, '2014-11-06 22:06:31'),
+(115, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 2, '2014-11-06 22:06:41'),
+(116, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 2, '2014-11-06 22:07:40'),
+(117, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 6, '2014-11-06 22:07:47'),
+(118, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 6, '2014-11-06 22:08:21'),
+(119, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 414, 0, '2014-11-06 22:09:17'),
+(120, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 61, 0, '2014-11-06 22:09:44'),
+(121, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 7, '2014-11-06 22:09:56'),
+(122, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 8, '2014-11-06 22:10:13'),
+(123, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 6, '2014-11-06 22:10:25'),
+(124, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 2, '2014-11-06 22:10:38'),
+(125, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 16, 0, '2014-11-06 22:11:08'),
+(126, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 16, 0, '2014-11-06 22:11:13'),
+(127, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 16, 0, '2014-11-06 22:11:19'),
+(128, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 12, 0, '2014-11-06 22:12:19'),
+(129, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 12, 0, '2014-11-06 22:12:23'),
+(130, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 12, 0, '2014-11-06 22:12:25'),
+(131, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 12, 0, '2014-11-06 22:12:35'),
+(132, '48a365b4ce1e322a55ae9017f3daf0c0', 1, 1, 56, 2, '2014-11-06 22:12:46');
 
 -- --------------------------------------------------------
 
@@ -397,14 +468,17 @@ CREATE TABLE IF NOT EXISTS `con_art` (
   `idclient` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`idart`),
   KEY `idclient` (`idclient`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 --
 -- Daten für Tabelle `con_art`
 --
 
 INSERT INTO `con_art` (`idart`, `idclient`) VALUES
-(1, 1);
+(1, 1),
+(2, 1),
+(3, 1),
+(4, 1);
 
 -- --------------------------------------------------------
 
@@ -451,14 +525,17 @@ CREATE TABLE IF NOT EXISTS `con_art_lang` (
   PRIMARY KEY (`idartlang`),
   KEY `idtplcfg` (`idtplcfg`,`idart`),
   KEY `idart_2` (`idart`,`idlang`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 --
 -- Daten für Tabelle `con_art_lang`
 --
 
 INSERT INTO `con_art_lang` (`idartlang`, `idart`, `idlang`, `idtplcfg`, `title`, `urlname`, `pagetitle`, `summary`, `artspec`, `created`, `lastmodified`, `author`, `modifiedby`, `published`, `publishedby`, `online`, `redirect`, `redirect_url`, `redirect_mode`, `artsort`, `timemgmt`, `datestart`, `dateend`, `status`, `free_use_01`, `free_use_02`, `free_use_03`, `time_move_cat`, `time_target_cat`, `time_online_move`, `external_redirect`, `locked`, `searchable`, `sitemapprio`, `changefreq`) VALUES
-(1, 1, 1, 4, 'Pfeffer 100gr (Glass)', 'Pfeffer-100gr-Glass', '', NULL, 0, '2014-10-19 19:37:04', '2014-10-19 20:45:50', 'sysadmin', 'sysadmin', '2014-10-19 19:37:42', 'sysadmin', 1, 0, '0', 'temporary', 0, 0, NULL, NULL, 0, NULL, NULL, NULL, 0, 1, 0, '0', 0, 1, 0.5, '');
+(1, 1, 1, 14, 'Pfeffer 100gr (Glass)', 'Pfeffer-100gr-Glass', '', NULL, 0, '2014-10-19 19:37:04', '2014-11-06 22:10:07', 'sysadmin', 'sysadmin', '2014-10-19 19:37:42', 'sysadmin', 1, 0, '0', 'temporary', 0, 0, NULL, NULL, 0, NULL, NULL, NULL, 0, 1, 0, '0', 0, 1, 0.5, ''),
+(2, 2, 1, 0, 'Bestellung aufnehmen', 'Bestellung-aufnehmen', '', NULL, 0, '2014-11-06 21:58:26', '2014-11-06 21:58:41', 'sysadmin', 'sysadmin', '2014-11-06 21:58:41', 'sysadmin', 1, 0, '0', 'temporary', 0, 0, NULL, NULL, 0, NULL, NULL, NULL, 0, 1, 0, '0', 0, 1, 0.5, ''),
+(3, 3, 1, 13, 'Pfeffer 200gr (Glass)', 'Pfeffer-200gr-Glass', '', NULL, 0, '2014-11-06 21:59:08', '2014-11-06 22:10:32', 'sysadmin', 'sysadmin', '2014-11-06 22:02:04', 'sysadmin', 1, 0, '0', 'temporary', 0, 0, NULL, NULL, 0, NULL, NULL, NULL, 0, 1, 0, '0', 0, 1, 0.5, ''),
+(4, 4, 1, 15, 'Pfeffer 3kg (Glass)', 'Pfeffer-3kg-Glass', '', NULL, 0, '2014-11-06 21:59:12', '2014-11-06 22:10:20', 'sysadmin', 'sysadmin', '2014-11-06 22:02:00', 'sysadmin', 1, 0, '0', 'temporary', 0, 0, NULL, NULL, 0, NULL, NULL, NULL, 0, 1, 0, '0', 0, 1, 0.5, '');
 
 -- --------------------------------------------------------
 
@@ -499,7 +576,7 @@ CREATE TABLE IF NOT EXISTS `con_cat` (
   KEY `idclient_2` (`idclient`,`parentid`),
   KEY `parentid` (`parentid`,`preid`),
   KEY `preid` (`preid`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 
 --
 -- Daten für Tabelle `con_cat`
@@ -507,8 +584,10 @@ CREATE TABLE IF NOT EXISTS `con_cat` (
 
 INSERT INTO `con_cat` (`idcat`, `idclient`, `parentid`, `preid`, `postid`, `status`, `author`, `created`, `lastmodified`) VALUES
 (1, 1, 0, 0, 0, 0, 'sysadmin', '2014-10-19 19:27:28', '2014-10-19 19:27:28'),
-(2, 1, 1, 0, 3, 0, 'sysadmin', '2014-10-19 19:27:48', '2014-10-19 19:28:34'),
-(3, 1, 1, 2, 0, 0, 'sysadmin', '2014-10-19 19:28:34', '2014-10-19 19:28:34');
+(2, 1, 1, 3, 0, 0, 'sysadmin', '2014-10-19 19:27:48', '2014-11-06 22:11:20'),
+(3, 1, 1, 0, 2, 0, 'sysadmin', '2014-10-19 19:28:34', '2014-11-06 22:11:20'),
+(4, 1, 2, 0, 5, 0, 'sysadmin', '2014-11-06 22:04:01', '2014-11-06 22:04:24'),
+(5, 1, 2, 4, 0, 0, 'sysadmin', '2014-11-06 22:04:24', '2014-11-06 22:04:24');
 
 -- --------------------------------------------------------
 
@@ -530,14 +609,17 @@ CREATE TABLE IF NOT EXISTS `con_cat_art` (
   KEY `is_start_2` (`is_start`,`idcat`),
   KEY `idart` (`idart`),
   KEY `idcat` (`idcat`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
 
 --
 -- Daten für Tabelle `con_cat_art`
 --
 
 INSERT INTO `con_cat_art` (`idcatart`, `idcat`, `idart`, `is_start`, `status`, `author`, `created`, `lastmodified`, `createcode`) VALUES
-(1, 2, 1, 0, 0, 'sysadmin', '2014-10-19 19:37:41', '2014-10-19 19:37:41', 1);
+(2, 1, 2, 0, 0, 'sysadmin', '2014-11-06 21:58:41', '2014-11-06 21:58:41', 1),
+(6, 4, 3, 0, 0, 'sysadmin', '2014-11-06 22:05:46', '2014-11-06 22:05:46', 1),
+(7, 5, 1, 0, 0, 'sysadmin', '2014-11-06 22:06:04', '2014-11-06 22:06:04', 1),
+(8, 5, 4, 0, 0, 'sysadmin', '2014-11-06 22:06:31', '2014-11-06 22:06:31', 1);
 
 -- --------------------------------------------------------
 
@@ -566,16 +648,18 @@ CREATE TABLE IF NOT EXISTS `con_cat_lang` (
   KEY `idtplcfg` (`idtplcfg`),
   KEY `idlang_2` (`idlang`,`visible`),
   KEY `idlang_3` (`idlang`,`idcat`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 
 --
 -- Daten für Tabelle `con_cat_lang`
 --
 
 INSERT INTO `con_cat_lang` (`idcatlang`, `idcat`, `idlang`, `idtplcfg`, `name`, `visible`, `public`, `status`, `author`, `created`, `lastmodified`, `startidartlang`, `urlname`, `urlpath`) VALUES
-(1, 1, 1, 0, 'Main', 0, 1, 0, 'sysadmin', '2014-10-19 19:27:28', '2014-10-19 19:27:28', 0, 'Main', ''),
-(2, 2, 1, 3, 'Produkte', 1, 1, 0, 'sysadmin', '2014-10-19 19:27:48', '2014-10-19 19:37:42', 1, 'Produkte', ''),
-(3, 3, 1, 0, 'Händler', 1, 1, 0, 'sysadmin', '2014-10-19 19:28:34', '2014-10-19 19:28:34', 0, 'Haendler', '');
+(1, 1, 1, 7, 'Main', 1, 1, 0, 'sysadmin', '2014-10-19 19:27:28', '2014-11-06 22:12:35', 2, 'Main', ''),
+(2, 2, 1, 3, 'Produkte', 1, 1, 0, 'sysadmin', '2014-10-19 19:27:48', '2014-11-06 22:05:23', 0, 'Produkte', ''),
+(3, 3, 1, 16, 'Händler', 1, 1, 0, 'sysadmin', '2014-10-19 19:28:34', '2014-10-19 19:28:34', 0, 'Haendler', ''),
+(4, 4, 1, 10, 'Kuruyemis', 1, 1, 0, 'sysadmin', '2014-11-06 22:04:01', '2014-11-06 22:05:07', 0, 'Kuruyemis', ''),
+(5, 5, 1, 12, 'Baharat', 1, 1, 0, 'sysadmin', '2014-11-06 22:04:24', '2014-11-06 22:05:29', 0, 'Baharat', '');
 
 -- --------------------------------------------------------
 
@@ -589,16 +673,18 @@ CREATE TABLE IF NOT EXISTS `con_cat_tree` (
   `level` int(2) NOT NULL DEFAULT '0',
   PRIMARY KEY (`idtree`),
   KEY `idcat` (`idcat`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=111 ;
 
 --
 -- Daten für Tabelle `con_cat_tree`
 --
 
 INSERT INTO `con_cat_tree` (`idtree`, `idcat`, `level`) VALUES
-(12, 1, 0),
-(13, 2, 1),
-(14, 3, 1);
+(106, 1, 0),
+(107, 3, 1),
+(108, 2, 1),
+(109, 4, 2),
+(110, 5, 2);
 
 -- --------------------------------------------------------
 
@@ -680,7 +766,7 @@ CREATE TABLE IF NOT EXISTS `con_container` (
   PRIMARY KEY (`idcontainer`),
   KEY `idtpl` (`idtpl`),
   KEY `number` (`number`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=19 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=39 ;
 
 --
 -- Daten für Tabelle `con_container`
@@ -695,7 +781,27 @@ INSERT INTO `con_container` (`idcontainer`, `idtpl`, `number`, `idmod`) VALUES
 (15, 1, 180, 0),
 (16, 1, 190, 0),
 (17, 1, 200, 0),
-(18, 1, 210, 0);
+(18, 1, 210, 0),
+(19, 2, 3, 10),
+(20, 2, 15, 51),
+(21, 2, 140, 0),
+(22, 2, 150, 0),
+(23, 2, 160, 0),
+(24, 2, 170, 48),
+(25, 2, 180, 0),
+(26, 2, 190, 0),
+(27, 2, 200, 0),
+(28, 2, 210, 0),
+(29, 3, 3, 10),
+(30, 3, 15, 51),
+(31, 3, 140, 0),
+(32, 3, 150, 0),
+(33, 3, 160, 50),
+(34, 3, 170, 0),
+(35, 3, 180, 0),
+(36, 3, 190, 0),
+(37, 3, 200, 0),
+(38, 3, 210, 0);
 
 -- --------------------------------------------------------
 
@@ -732,7 +838,7 @@ CREATE TABLE IF NOT EXISTS `con_content` (
   KEY `idartlang` (`idartlang`),
   KEY `idtype` (`idtype`),
   KEY `typeid` (`typeid`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=12 ;
 
 --
 -- Daten für Tabelle `con_content`
@@ -740,7 +846,16 @@ CREATE TABLE IF NOT EXISTS `con_content` (
 
 INSERT INTO `con_content` (`idcontent`, `idartlang`, `idtype`, `typeid`, `value`, `version`, `author`, `created`, `lastmodified`) VALUES
 (1, 1, 3, 200201, '510', '0', 'sysadmin', '2014-10-19 20:45:15', '2014-10-19 20:45:15'),
-(2, 1, 3, 200200, 'Kalinka 650g roh Sonnenblumenkerne', '0', 'sysadmin', '2014-10-19 20:45:50', '2014-10-19 20:45:50');
+(2, 1, 3, 200200, 'Kalinka 650g roh Sonnenblumenkerne', '0', 'sysadmin', '2014-10-19 20:45:50', '2014-10-19 20:45:50'),
+(3, 3, 3, 200201, '610', '0', 'sysadmin', '2014-10-19 20:45:15', '2014-11-06 21:59:35'),
+(4, 3, 3, 200200, 'Kalinka 1kg roh Sonnenblumenkerne', '0', 'sysadmin', '2014-10-19 20:45:50', '2014-11-06 21:59:45'),
+(5, 4, 3, 200201, '510', '0', 'sysadmin', '2014-10-19 20:45:15', '2014-10-19 20:45:15'),
+(6, 4, 3, 200200, 'Kalinka 3kg roh Sonnenblumenkerne', '0', 'sysadmin', '2014-10-19 20:45:50', '2014-11-06 22:01:10'),
+(7, 3, 3, 200202, '2', '0', 'sysadmin', '2014-11-06 21:59:54', '2014-11-06 21:59:54'),
+(8, 3, 22, 200200, '6', '0', 'sysadmin', '2014-11-06 22:00:00', '2014-11-06 22:10:32'),
+(9, 4, 22, 200200, '7', '0', 'sysadmin', '2014-11-06 22:01:01', '2014-11-06 22:10:20'),
+(10, 4, 3, 200202, '3', '0', 'sysadmin', '2014-11-06 22:01:13', '2014-11-06 22:01:13'),
+(11, 1, 22, 200200, '5', '0', 'sysadmin', '2014-11-06 22:10:07', '2014-11-06 22:10:07');
 
 -- --------------------------------------------------------
 
@@ -1340,14 +1455,14 @@ CREATE TABLE IF NOT EXISTS `con_inuse` (
   `userid` varchar(32) NOT NULL,
   `timestamp` int(11) NOT NULL,
   PRIMARY KEY (`idinuse`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=37 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=92 ;
 
 --
 -- Daten für Tabelle `con_inuse`
 --
 
 INSERT INTO `con_inuse` (`idinuse`, `type`, `objectid`, `session`, `userid`, `timestamp`) VALUES
-(36, 'article', '1', '40jt22dm3fs9u1mq0j2anu3jb0pd9gh7', '48a365b4ce1e322a55ae9017f3daf0c0', 1413744862);
+(91, 'article', '2', 'm79d3tlkqdub1m4bf3tgm0l132he73o6', '48a365b4ce1e322a55ae9017f3daf0c0', 1415308370);
 
 -- --------------------------------------------------------
 
@@ -1777,7 +1892,18 @@ CREATE TABLE IF NOT EXISTS `con_keywords` (
   PRIMARY KEY (`idkeyword`),
   KEY `keyword` (`keyword`),
   KEY `idlang2` (`idlang`,`keyword`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
+
+--
+-- Daten für Tabelle `con_keywords`
+--
+
+INSERT INTO `con_keywords` (`idkeyword`, `keyword`, `exp`, `auto`, `self`, `idlang`) VALUES
+(1, '510', '', '&4=1(CMS_TEXT-200201)&1=1(CMS_TEXT-200201)', '', 1),
+(2, 'kalinka 650g roh sonnenblumenkerne', '', '&1=1(CMS_TEXT-200200)', '', 1),
+(3, '610', '', '&3=1(CMS_TEXT-200201)', '', 1),
+(4, 'kalinka 1kg roh sonnenblumenkerne', '', '&3=1(CMS_TEXT-200200)', '', 1),
+(5, 'kalinka 3kg roh sonnenblumenkerne', '', '&4=1(CMS_TEXT-200200)', '', 1);
 
 -- --------------------------------------------------------
 
@@ -1881,7 +2007,7 @@ CREATE TABLE IF NOT EXISTS `con_meta_tag` (
   `idmetatype` int(11) NOT NULL DEFAULT '0',
   `metavalue` text NOT NULL,
   PRIMARY KEY (`idmetatag`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=33 ;
 
 --
 -- Daten für Tabelle `con_meta_tag`
@@ -1895,7 +2021,31 @@ INSERT INTO `con_meta_tag` (`idmetatag`, `idartlang`, `idmetatype`, `metavalue`)
 (5, 1, 5, ''),
 (6, 1, 6, ''),
 (7, 1, 7, 'index, follow'),
-(8, 1, 8, '');
+(8, 1, 8, ''),
+(9, 2, 1, ''),
+(10, 2, 2, ''),
+(11, 2, 3, ''),
+(12, 2, 4, ''),
+(13, 2, 5, ''),
+(14, 2, 6, ''),
+(15, 2, 7, 'index, follow'),
+(16, 2, 8, ''),
+(17, 3, 1, ''),
+(18, 3, 2, ''),
+(19, 3, 3, ''),
+(20, 3, 4, ''),
+(21, 3, 5, ''),
+(22, 3, 6, ''),
+(23, 3, 7, 'index, follow'),
+(24, 3, 8, ''),
+(25, 4, 1, ''),
+(26, 4, 2, ''),
+(27, 4, 3, ''),
+(28, 4, 4, ''),
+(29, 4, 5, ''),
+(30, 4, 6, ''),
+(31, 4, 7, 'index, follow'),
+(32, 4, 8, '');
 
 -- --------------------------------------------------------
 
@@ -1952,58 +2102,62 @@ CREATE TABLE IF NOT EXISTS `con_mod` (
   `lastmodified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`idmod`),
   KEY `idclient` (`idclient`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=48 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=52 ;
 
 --
 -- Daten für Tabelle `con_mod`
 --
 
 INSERT INTO `con_mod` (`idmod`, `idclient`, `name`, `alias`, `type`, `error`, `description`, `deletable`, `input`, `output`, `template`, `static`, `package_guid`, `package_data`, `author`, `created`, `lastmodified`) VALUES
-(1, 1, 'content_header_first', 'content_header_first', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-10 20:50:53', '2013-06-19 14:41:34'),
-(2, 1, 'content_header_second', 'content_header_second', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-10 21:32:15', '2013-06-19 14:41:34'),
-(3, 1, 'content_rss_creator', 'content_rss_creator', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-10 21:50:01', '2013-06-19 14:41:35'),
-(4, 1, 'content_text', 'content_text', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-10 22:00:27', '2013-06-19 14:41:37'),
-(5, 1, 'content_image', 'content_image', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-10 23:13:30', '2013-06-19 14:41:34'),
-(6, 1, 'content_date', 'content_date', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-10 23:13:54', '2013-06-19 14:41:34'),
-(7, 1, 'navigation_bottom', 'navigation_bottom', 'navigation', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 00:41:37', '2013-06-19 14:41:37'),
-(8, 1, 'navigation_main', 'navigation_main', 'navigation', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 00:45:01', '2013-06-19 14:41:38'),
-(9, 1, 'navigation_social_media', 'navigation_social_media', 'navigation', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 02:27:47', '2013-06-19 14:41:38'),
-(10, 1, 'head_title', 'head_title', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 02:40:16', '2013-06-19 14:41:37'),
-(12, 1, 'script_tracker_google', 'script_tracker_google', 'script', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 03:26:01', '2013-06-19 14:41:38'),
-(13, 1, 'script_tracker_piwik', 'script_tracker_piwik', 'script', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 03:26:01', '2013-06-19 14:41:38'),
-(14, 1, 'navigation_breadcrumb', 'navigation_breadcrumb', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 03:27:19', '2013-06-19 14:41:37'),
-(15, 1, 'content_sitemap_xml', 'content_sitemap_xml', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 03:58:06', '2013-06-19 14:41:35'),
-(16, 1, 'config_social_media', 'config_social_media', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 03:59:52', '2013-06-19 14:41:34'),
-(17, 1, 'content_copyright_notice', 'content_copyright_notice', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 04:56:52', '2013-06-19 14:41:34'),
-(18, 1, 'config_copyright_notice', 'config_copyright_notice', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 04:56:52', '2013-06-19 14:41:34'),
-(19, 1, 'content_picture_gallery', 'content_picture_gallery', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 04:56:52', '2013-06-19 14:41:35'),
-(20, 1, 'content_teaser_slider', 'content_teaser_slider', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-12-24 11:26:45', '2013-06-19 14:41:36'),
-(21, 1, 'content_teaser_image', 'content_teaser_image', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-12-24 11:27:34', '2013-06-19 14:41:36'),
-(22, 1, 'content_teaser_text', 'content_teaser_text', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-12-24 11:28:03', '2013-06-19 14:41:37'),
-(23, 1, 'content_teaser_config', 'content_teaser_config', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-12-27 12:44:20', '2013-06-19 14:41:35'),
-(24, 1, 'navigation_lang_changer', 'navigation_lang_changer', 'Navigation', 'none', 'Smart language changer', NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-12-27 14:28:09', '2013-06-19 14:41:38'),
-(25, 1, 'navigation_searchform_top', 'navigation_searchform_top', 'navigation', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-01-18 16:12:16', '2013-06-19 14:41:38'),
-(26, 1, 'navigation_top', 'navigation_top', 'navigation', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-01-18 16:12:16', '2013-06-19 14:41:38'),
-(27, 1, 'content_map_google', 'content_map_google', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-12 08:37:06', '2013-06-19 14:41:34'),
-(28, 1, 'content_sitemap_html', 'content_sitemap_html', '', 'none', 'asd', NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-12 08:37:06', '2013-06-19 14:41:35'),
-(29, 1, 'content_link_list', 'content_link_list', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-12 08:37:06', '2013-06-19 14:41:34'),
-(30, 1, 'content_search_results', 'content_search_results', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-12 08:37:06', '2013-06-19 14:41:35'),
-(31, 1, 'content_download_list', 'content_download_list', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-12 08:37:06', '2013-06-19 14:41:34'),
-(32, 1, 'form_login', 'form_login', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-13 14:14:00', '2013-06-19 14:41:37'),
-(33, 1, 'layout_logo', 'layout_logo', 'layout', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-13 14:14:00', '2013-06-19 14:41:37'),
-(34, 1, 'form_newsletter_subscription', 'form_newsletter_subscription', 'content', 'none', 'Newsletter Subscription Module V4.0.0 (for text and HTML newsletters)rnrnProvides multilanguage form for newsletter subscribing and cancellation.rnrnBased on the work of 4fb, www.x28.de, HerrB, 01.06.2007rnrnNotes:rn- The default language is english. Use the translation functionality to translate the module in other languagesrn- Create a template which includes this module and create an article using that template.rn- Configure category/arcticle specifying handler article id', NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-13 14:14:00', '2013-06-19 14:41:37'),
-(35, 1, 'content_user_forum', 'content_user_forum', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-13 14:14:00', '2013-06-19 14:41:37'),
-(36, 1, 'handler_newsletter_subscription', 'handler_newsletter_subscription', 'content', 'none', 'Newsletter Handler Module V4.0.1 (for text and HTML newsletters)rnrnProvides multilanguage handling for newsletter subscribing, cancellation and other features.rnrnBased on the work of 4fb, www.x28.de, HerrB, 01.05.2007rnrnNotes:rn- The default language is english. Use the translation functionality to translate the module in other languagesrn- Create a template which includes this module and create an article using that template.rn- Configure category/arcticle specifying handler article id', NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-13 14:14:00', '2013-06-19 14:41:37'),
-(37, 1, 'form_contact', 'form_contact', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-20 13:33:23', '2013-06-19 14:41:37'),
-(38, 1, 'script_cookie_directive', 'script_cookie_directive', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-20 13:33:23', '2013-06-19 14:41:38'),
-(40, 1, 'content_socialmedia_facebook', 'content_socialmedia_facebook', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '0000-00-00 00:00:00', '2013-06-19 14:41:35'),
-(41, 1, 'content_socialmedia_googleplus', 'content_socialmedia_googleplus', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '0000-00-00 00:00:00', '2013-06-19 14:41:35'),
-(42, 1, 'content_socialmedia_twitter', 'content_socialmedia_twitter', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '0000-00-00 00:00:00', '2013-06-19 14:41:35'),
-(43, 1, 'content_socialmedia_xing', 'content_socialmedia_xing', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '0000-00-00 00:00:00', '2013-06-19 14:41:35'),
-(44, 1, 'script_fb_channel', 'script_fb_channel', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-09-10 13:28:59', '2013-09-10 13:28:59'),
-(45, 1, 'content_fb_embeddedpost', 'content_fb_embeddedpost', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-09-10 13:28:59', '2013-09-10 13:28:59'),
-(46, 1, 'script_fb_sdk', 'script_fb_sdk', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-09-10 13:28:59', '2013-09-10 13:28:59'),
-(47, 1, 'content_product_edit', 'content_product_edit', '', 'none', NULL, 0, '', '', '', 0, NULL, NULL, 'sysadmin', '2014-10-19 19:35:11', '2014-10-19 19:36:01');
+(1, 1, 'content_header_first', 'content_header_first', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-10 20:50:53', '2014-10-19 17:46:02'),
+(2, 1, 'content_header_second', 'content_header_second', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-10 21:32:15', '2014-10-19 17:46:02'),
+(3, 1, 'content_rss_creator', 'content_rss_creator', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-10 21:50:01', '2014-10-19 17:46:02'),
+(4, 1, 'content_text', 'content_text', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-10 22:00:27', '2014-10-19 17:46:02'),
+(5, 1, 'content_image', 'content_image', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-10 23:13:30', '2014-10-19 17:46:02'),
+(6, 1, 'content_date', 'content_date', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-10 23:13:54', '2014-10-19 17:46:02'),
+(7, 1, 'navigation_bottom', 'navigation_bottom', 'navigation', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 00:41:37', '2014-10-19 17:46:02'),
+(8, 1, 'navigation_main', 'navigation_main', 'navigation', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 00:45:01', '2014-10-19 17:46:02'),
+(9, 1, 'navigation_social_media', 'navigation_social_media', 'navigation', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 02:27:47', '2014-10-19 17:46:02'),
+(10, 1, 'head_title', 'head_title', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 02:40:16', '2014-10-19 17:46:02'),
+(12, 1, 'script_tracker_google', 'script_tracker_google', 'script', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 03:26:01', '2014-10-19 17:46:03'),
+(13, 1, 'script_tracker_piwik', 'script_tracker_piwik', 'script', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 03:26:01', '2014-10-19 17:46:03'),
+(14, 1, 'navigation_breadcrumb', 'navigation_breadcrumb', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 03:27:19', '2014-10-19 17:46:02'),
+(15, 1, 'content_sitemap_xml', 'content_sitemap_xml', '', 'none', 'see http://www.sitemaps.org/', NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 03:58:06', '2014-10-19 17:46:02'),
+(16, 1, 'config_social_media', 'config_social_media', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 03:59:52', '2014-10-19 17:46:02'),
+(17, 1, 'content_copyright_notice', 'content_copyright_notice', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 04:56:52', '2014-10-19 17:46:02'),
+(18, 1, 'config_copyright_notice', 'config_copyright_notice', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 04:56:52', '2014-10-19 17:46:02'),
+(19, 1, 'content_picture_gallery', 'content_picture_gallery', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-11-11 04:56:52', '2014-10-19 17:46:02'),
+(20, 1, 'content_teaser_slider', 'content_teaser_slider', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-12-24 11:26:45', '2014-10-19 17:46:02'),
+(21, 1, 'content_teaser_image', 'content_teaser_image', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-12-24 11:27:34', '2014-10-19 17:46:02'),
+(22, 1, 'content_teaser_text', 'content_teaser_text', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-12-24 11:28:03', '2014-10-19 17:46:02'),
+(23, 1, 'content_teaser_config', 'content_teaser_config', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-12-27 12:44:20', '2014-10-19 17:46:02'),
+(24, 1, 'navigation_lang_changer', 'navigation_lang_changer', 'Navigation', 'none', 'Smart language changer', NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2012-12-27 14:28:09', '2014-10-19 17:46:02'),
+(25, 1, 'navigation_searchform_top', 'navigation_searchform_top', 'navigation', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-01-18 16:12:16', '2014-10-19 17:46:02'),
+(26, 1, 'navigation_top', 'navigation_top', 'navigation', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-01-18 16:12:16', '2014-10-19 17:46:03'),
+(27, 1, 'content_map_google', 'content_map_google', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-12 08:37:06', '2014-10-19 17:46:02'),
+(28, 1, 'content_sitemap_html', 'content_sitemap_html', '', 'none', '', NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-12 08:37:06', '2014-10-19 17:46:02'),
+(29, 1, 'content_link_list', 'content_link_list', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-12 08:37:06', '2014-10-19 17:46:02'),
+(30, 1, 'content_search_results', 'content_search_results', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-12 08:37:06', '2014-10-19 17:46:02'),
+(31, 1, 'content_download_list', 'content_download_list', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-12 08:37:06', '2014-10-19 17:46:02'),
+(32, 1, 'form_login', 'form_login', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-13 14:14:00', '2014-10-19 17:46:02'),
+(33, 1, 'layout_logo', 'layout_logo', 'layout', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-13 14:14:00', '2014-10-19 17:46:02'),
+(34, 1, 'form_newsletter_subscription', 'form_newsletter_subscription', 'content', 'none', 'Newsletter Subscription Module V4.0.0 (for text and HTML newsletters)rnrnProvides multilanguage form for newsletter subscribing and cancellation.rnrnBased on the work of 4fb, www.x28.de, HerrB, 01.06.2007rnrnNotes:rn- The default language is english. Use the translation functionality to translate the module in other languagesrn- Create a template which includes this module and create an article using that template.rn- Configure category/arcticle specifying handler article id', NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-13 14:14:00', '2014-10-19 17:46:02'),
+(35, 1, 'content_user_forum', 'content_user_forum', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-13 14:14:00', '2014-10-19 17:46:02'),
+(36, 1, 'handler_newsletter_subscription', 'handler_newsletter_subscription', 'content', 'none', 'Newsletter Handler Module V4.0.1 (for text and HTML newsletters)rnrnProvides multilanguage handling for newsletter subscribing, cancellation and other features.rnrnBased on the work of 4fb, www.x28.de, HerrB, 01.05.2007rnrnNotes:rn- The default language is english. Use the translation functionality to translate the module in other languagesrn- Create a template which includes this module and create an article using that template.rn- Configure category/arcticle specifying handler article id', NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-13 14:14:00', '2014-10-19 17:46:02'),
+(37, 1, 'form_contact', 'form_contact', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-20 13:33:23', '2014-10-19 17:46:02'),
+(38, 1, 'script_cookie_directive', 'script_cookie_directive', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-02-20 13:33:23', '2014-10-19 17:46:03'),
+(40, 1, 'content_socialmedia_facebook', 'content_socialmedia_facebook', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '0000-00-00 00:00:00', '2014-10-19 17:46:02'),
+(41, 1, 'content_socialmedia_googleplus', 'content_socialmedia_googleplus', '', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '0000-00-00 00:00:00', '2014-10-19 17:46:02'),
+(42, 1, 'content_socialmedia_twitter', 'content_socialmedia_twitter', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '0000-00-00 00:00:00', '2014-10-19 17:46:02'),
+(43, 1, 'content_socialmedia_xing', 'content_socialmedia_xing', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '0000-00-00 00:00:00', '2014-10-19 17:46:02'),
+(44, 1, 'script_fb_channel', 'script_fb_channel', '', 'none', 'Adding a Channel File greatly improves the performance of the JS SDK by addressing issues with cross-domain communication in certain browsers.\r\n\r\nThe channel file should be set to be cached for as long as possible. When serving this file, you should send valid Expires headers with a long expiration period. This will ensure the channel file is cached by the browser and not reloaded with each page refresh. Without proper caching, users will suffer a severely degraded experience.\r\n\r\nThe channelUrl parameter within FB.init() is optional, but strongly recommended. Providing a channel file can help address three specific known issues.\r\n\r\n- Pages that include code to communicate across frames may cause Social Plugins to show up as blank without a channelUrl.\r\n- if no channelUrl is provided and a page includes auto-playing audio or video, the user may hear two streams of audio because the page has been loaded a second time in the background for cross domain communication.\r\n- a channel file will prevent inclusion of extra hits in your server-side logs. If you do not specify a channelUrl, you should remove page views containing fb_xd_bust or fb_xd_fragment parameters from your logs to ensure proper counts.\r\n\r\nThe channelUrl must be a fully qualified URL matching the page on which you include the SDK. In other words, the channel file domain must include www if your site is served using www, and if you modify document.domain on your page you must make the same document.domain change in the channel.html file as well. The protocols must also match. If your page is served over https, your channelUrl must also be https. Remember to use the matching protocol for the script src as well. The sample code above uses protocol-relative URLs which should handle most https cases properly.', NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-09-10 13:28:59', '2014-10-19 17:46:03'),
+(45, 1, 'content_fb_embeddedpost', 'content_fb_embeddedpost', 'content', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-09-10 13:28:59', '2014-10-19 17:46:02'),
+(46, 1, 'script_fb_sdk', 'script_fb_sdk', 'script', 'none', NULL, NULL, '', '', '', 0, NULL, NULL, 'sysadmin', '2013-09-10 13:28:59', '2014-10-19 17:46:03'),
+(47, 1, 'content_product_edit', 'content_product_edit', '', 'none', NULL, 0, '', '', '', 0, NULL, NULL, 'sysadmin', '2014-10-19 19:35:11', '2014-10-19 20:52:13'),
+(48, 1, 'content_customer_edit', 'content_customer_edit', '', 'none', NULL, 0, '', '', '', 0, NULL, NULL, 'sysadmin', '2014-11-06 21:56:32', '2014-11-06 21:56:32'),
+(49, 1, 'content_product_list', 'content_product_list', '', 'none', NULL, 0, '', '', '', 0, NULL, NULL, 'sysadmin', '2014-11-06 21:56:32', '2014-11-06 21:56:32'),
+(50, 1, 'content_product_order', 'content_product_order', '', 'none', NULL, 0, '', '', '', 0, NULL, NULL, 'sysadmin', '2014-11-06 21:56:32', '2014-11-06 21:56:32'),
+(51, 1, 'header_scripts_and_styles', 'header_scripts_and_styles', '', 'none', NULL, 0, '', '', '', 0, NULL, NULL, 'sysadmin', '2014-11-06 21:56:32', '2014-11-06 21:56:32');
 
 -- --------------------------------------------------------
 
@@ -2153,7 +2307,7 @@ CREATE TABLE IF NOT EXISTS `con_online_user` (
 --
 
 INSERT INTO `con_online_user` (`user_id`, `lastaccessed`) VALUES
-('48a365b4ce1e322a55ae9017f3daf0c0', '2014-10-19 20:54:22');
+('48a365b4ce1e322a55ae9017f3daf0c0', '2014-11-06 22:12:46');
 
 -- --------------------------------------------------------
 
@@ -2374,7 +2528,7 @@ CREATE TABLE IF NOT EXISTS `con_properties` (
   KEY `index_itemtype` (`itemtype`),
   KEY `index_itemid` (`itemid`),
   KEY `index_type` (`type`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=553 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=554 ;
 
 --
 -- Daten für Tabelle `con_properties`
@@ -2418,7 +2572,8 @@ INSERT INTO `con_properties` (`idproperty`, `idclient`, `itemtype`, `itemid`, `t
 (549, 1, 'clientsetting', '1', 'login_error_page', 'idart', '78', '48a365b4ce1e322a55ae9017f3daf0c0', '2013-02-21 16:26:46', '2013-02-21 16:26:46', '48a365b4ce1e322a55ae9017f3daf0c0'),
 (550, 1, 'clientsetting', '1', 'userforum', 'mailfrom', 'info@contenido.org', '48a365b4ce1e322a55ae9017f3daf0c0', '2013-02-20 13:44:00', '2013-02-20 14:03:19', '48a365b4ce1e322a55ae9017f3daf0c0'),
 (551, 1, 'idclientslang', '1', 'newsletter', 'idcatart', '74', '48a365b4ce1e322a55ae9017f3daf0c0', '2013-08-07 14:07:50', '2013-08-07 14:07:50', '48a365b4ce1e322a55ae9017f3daf0c0'),
-(552, 1, 'clientsetting', '1', 'global', 'sender-email', 'info@contenido.org', '48a365b4ce1e322a55ae9017f3daf0c0', '2013-08-07 14:07:50', '2013-08-07 14:27:18', '48a365b4ce1e322a55ae9017f3daf0c0');
+(552, 1, 'clientsetting', '1', 'global', 'sender-email', 'info@contenido.org', '48a365b4ce1e322a55ae9017f3daf0c0', '2013-08-07 14:07:50', '2013-08-07 14:27:18', '48a365b4ce1e322a55ae9017f3daf0c0'),
+(553, 1, 'user_id', '48a365b4ce1e322a55ae9017f3daf0c0', 'itemsperpage', 'user', '25', '48a365b4ce1e322a55ae9017f3daf0c0', '2014-11-06 22:07:19', '2014-11-06 22:07:19', '48a365b4ce1e322a55ae9017f3daf0c0');
 
 -- --------------------------------------------------------
 
@@ -2476,14 +2631,21 @@ CREATE TABLE IF NOT EXISTS `con_stat` (
   `visitdate` varchar(14) DEFAULT NULL,
   PRIMARY KEY (`idstat`),
   KEY `idcatart_idlang` (`idcatart`,`idlang`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=11 ;
 
 --
 -- Daten für Tabelle `con_stat`
 --
 
 INSERT INTO `con_stat` (`idstat`, `idcatart`, `idlang`, `idclient`, `visited`, `visitdate`) VALUES
-(1, 1, 1, 1, 0, NULL);
+(2, 2, 1, 1, 0, NULL),
+(4, 5, 2, 1, 0, NULL),
+(5, 6, 1, 1, 0, NULL),
+(6, 6, 2, 1, 0, NULL),
+(7, 7, 1, 1, 0, NULL),
+(8, 7, 2, 1, 0, NULL),
+(9, 8, 1, 1, 0, NULL),
+(10, 8, 2, 1, 0, NULL);
 
 -- --------------------------------------------------------
 
@@ -2515,7 +2677,7 @@ CREATE TABLE IF NOT EXISTS `con_system_prop` (
   `value` text,
   PRIMARY KEY (`idsystemprop`),
   KEY `type_name` (`type`,`name`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=54 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=55 ;
 
 --
 -- Daten für Tabelle `con_system_prop`
@@ -2548,11 +2710,12 @@ INSERT INTO `con_system_prop` (`idsystemprop`, `type`, `name`, `value`) VALUES
 (46, 'backend', 'backend_label', ''),
 (47, 'generator', 'xhtml', 'true'),
 (48, 'generator', 'basehref', 'true'),
-(49, 'plugin', 'frontendusers-lastscantime', '1413744630'),
+(49, 'plugin', 'frontendusers-lastscantime', '1415308157'),
 (50, 'plugin', 'frontendusers-pluginorder', 'groupselect,valid_from,valid_to'),
-(51, 'plugin', 'frontendlogic-lastscantime', '1413744630'),
+(51, 'plugin', 'frontendlogic-lastscantime', '1415308157'),
 (52, 'plugin', 'frontendlogic-pluginorder', 'category'),
-(53, 'system', 'purge-dirstoexclude-withfiles', '.,..,.svn,.cvs,.htaccess,.git,.gitignore,.keep');
+(53, 'system', 'purge-dirstoexclude-withfiles', '.,..,.svn,.cvs,.htaccess,.git,.gitignore,.keep'),
+(54, 'system', 'upldirlist-dirstoexclude', '.,..,.svn,.cvs');
 
 -- --------------------------------------------------------
 
@@ -2577,14 +2740,16 @@ CREATE TABLE IF NOT EXISTS `con_template` (
   KEY `idclient` (`idclient`),
   KEY `idlay` (`idlay`),
   KEY `idtplcfg` (`idtplcfg`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 --
 -- Daten für Tabelle `con_template`
 --
 
 INSERT INTO `con_template` (`idclient`, `idlay`, `idtpl`, `idtplcfg`, `name`, `description`, `deletable`, `status`, `defaulttemplate`, `author`, `created`, `lastmodified`) VALUES
-(1, 1, 1, 1, 'product', NULL, 1, 0, 0, 'sysadmin', '2014-10-19 19:34:21', '0000-00-00 00:00:00');
+(1, 1, 1, 1, 'product', NULL, 1, 0, 0, 'sysadmin', '2014-10-19 19:34:21', '0000-00-00 00:00:00'),
+(1, 1, 2, 5, 'customer', NULL, 1, 0, 0, 'sysadmin', '2014-11-06 21:56:04', '0000-00-00 00:00:00'),
+(1, 1, 3, 6, 'product_order', NULL, 1, 0, 0, 'sysadmin', '2014-11-06 21:57:31', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -2601,7 +2766,7 @@ CREATE TABLE IF NOT EXISTS `con_template_conf` (
   `lastmodified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`idtplcfg`),
   KEY `idtplcfg` (`idtplcfg`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=17 ;
 
 --
 -- Daten für Tabelle `con_template_conf`
@@ -2611,7 +2776,15 @@ INSERT INTO `con_template_conf` (`idtplcfg`, `idtpl`, `status`, `author`, `creat
 (1, 1, 0, 'sysadmin', '2014-10-19 19:34:21', '0000-00-00 00:00:00'),
 (2, 1, 0, 'sysadmin', '2014-10-19 19:36:46', '0000-00-00 00:00:00'),
 (3, 1, 0, 'sysadmin', '2014-10-19 19:36:55', '0000-00-00 00:00:00'),
-(4, 1, NULL, NULL, '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+(5, 2, 0, 'sysadmin', '2014-11-06 21:56:04', '0000-00-00 00:00:00'),
+(6, 3, 0, 'sysadmin', '2014-11-06 21:57:31', '0000-00-00 00:00:00'),
+(7, 3, 0, 'sysadmin', '2014-11-06 21:58:14', '0000-00-00 00:00:00'),
+(10, 1, 0, 'sysadmin', '2014-11-06 22:05:07', '0000-00-00 00:00:00'),
+(12, 1, 0, 'sysadmin', '2014-11-06 22:05:29', '0000-00-00 00:00:00'),
+(13, 1, 0, 'sysadmin', '2014-11-06 22:05:46', '0000-00-00 00:00:00'),
+(14, 1, 0, 'sysadmin', '2014-11-06 22:06:04', '0000-00-00 00:00:00'),
+(15, 1, 0, 'sysadmin', '2014-11-06 22:06:31', '0000-00-00 00:00:00'),
+(16, 2, NULL, NULL, '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -2673,7 +2846,17 @@ CREATE TABLE IF NOT EXISTS `con_upl` (
   `modifiedby` varchar(32) NOT NULL,
   PRIMARY KEY (`idupl`),
   KEY `idclient` (`idclient`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
+
+--
+-- Daten für Tabelle `con_upl`
+--
+
+INSERT INTO `con_upl` (`idupl`, `idclient`, `filename`, `dirname`, `filetype`, `size`, `status`, `author`, `created`, `lastmodified`, `modifiedby`) VALUES
+(1, 1, '.gitignore', '', 'gitignore', 16, 0, '48a365b4ce1e322a55ae9017f3daf0c0', '2014-11-06 22:08:41', '2014-11-06 22:08:41', '48a365b4ce1e322a55ae9017f3daf0c0'),
+(5, 1, 'WP_000832.jpg', '', 'jpg', 365197, 0, '48a365b4ce1e322a55ae9017f3daf0c0', '2014-11-06 22:09:44', '2014-11-06 22:09:44', '48a365b4ce1e322a55ae9017f3daf0c0'),
+(6, 1, 'WP_000868.jpg', '', 'jpg', 369593, 0, '48a365b4ce1e322a55ae9017f3daf0c0', '2014-11-06 22:09:44', '2014-11-06 22:09:44', '48a365b4ce1e322a55ae9017f3daf0c0'),
+(7, 1, 'WP_000870.jpg', '', 'jpg', 338142, 0, '48a365b4ce1e322a55ae9017f3daf0c0', '2014-11-06 22:09:44', '2014-11-06 22:09:44', '48a365b4ce1e322a55ae9017f3daf0c0');
 
 -- --------------------------------------------------------
 
@@ -2695,7 +2878,17 @@ CREATE TABLE IF NOT EXISTS `con_upl_meta` (
   `modifiedby` varchar(32) NOT NULL,
   `copyright` text NOT NULL,
   PRIMARY KEY (`id_uplmeta`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+
+--
+-- Daten für Tabelle `con_upl_meta`
+--
+
+INSERT INTO `con_upl_meta` (`id_uplmeta`, `idupl`, `idlang`, `medianame`, `description`, `keywords`, `internal_notice`, `author`, `created`, `modified`, `modifiedby`, `copyright`) VALUES
+(1, 0, 1, '', '', '', '', 'sysadmin', '2014-11-06 22:00:00', '2014-11-06 22:00:00', '', ''),
+(2, 5, 1, '', '', '', '', 'sysadmin', '2014-11-06 22:10:07', '2014-11-06 22:10:07', '', ''),
+(3, 7, 1, '', '', '', '', 'sysadmin', '2014-11-06 22:10:20', '2014-11-06 22:10:20', '', ''),
+(4, 6, 1, '', '', '', '', 'sysadmin', '2014-11-06 22:10:32', '2014-11-06 22:10:32', '', '');
 
 -- --------------------------------------------------------
 
@@ -2746,7 +2939,7 @@ CREATE TABLE IF NOT EXISTS `con_user_prop` (
   `value` text,
   `idcatlang` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`iduserprop`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
 
 --
 -- Daten für Tabelle `con_user_prop`
@@ -2755,8 +2948,52 @@ CREATE TABLE IF NOT EXISTS `con_user_prop` (
 INSERT INTO `con_user_prop` (`iduserprop`, `user_id`, `type`, `name`, `value`, `idcatlang`) VALUES
 (1, '48a365b4ce1e322a55ae9017f3daf0c0', 'system', 'currentlogintime', '2014-10-19 19:26:20', 0),
 (2, '48a365b4ce1e322a55ae9017f3daf0c0', 'system', 'lastlogintime', NULL, 0),
-(3, '48a365b4ce1e322a55ae9017f3daf0c0', 'system', 'cat_expandstate', 'a:1:{i:1;a:2:{i:0;i:-1;i:1;s:1:"1";}}', 0),
-(4, '48a365b4ce1e322a55ae9017f3daf0c0', 'system', 'con_cat_expandstate', 'a:1:{i:1;a:1:{i:0;s:1:"1";}}', 0);
+(3, '48a365b4ce1e322a55ae9017f3daf0c0', 'system', 'cat_expandstate', 'a:1:{i:1;a:3:{i:0;i:-1;i:1;s:1:"1";i:2;s:1:"2";}}', 0),
+(4, '48a365b4ce1e322a55ae9017f3daf0c0', 'system', 'con_cat_expandstate', 'a:1:{i:1;a:2:{i:0;s:1:"1";i:1;s:1:"2";}}', 0),
+(5, '48a365b4ce1e322a55ae9017f3daf0c0', 'system', 'upl_expandstate', 'a:1:{i:0;s:0:"";}', 0),
+(6, '48a365b4ce1e322a55ae9017f3daf0c0', 'system', 'upl_dbfs_expandstate', 'a:1:{i:0;s:0:"";}', 0),
+(7, '48a365b4ce1e322a55ae9017f3daf0c0', 'upload_folder_thumbnailmode', 'd41d8cd98f00b204e9800998ecf8427e', '100', 0),
+(8, '48a365b4ce1e322a55ae9017f3daf0c0', 'upload_folder_thumbnailmode', '32ba026749076c350f21b5eb0f738861', '100', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Tabellenstruktur für Tabelle `order`
+--
+
+CREATE TABLE IF NOT EXISTS `order` (
+  `idorder` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `date` datetime NOT NULL,
+  `customer` int(10) unsigned DEFAULT NULL,
+  `total_price` double DEFAULT NULL,
+  PRIMARY KEY (`idorder`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Tabellenstruktur für Tabelle `order_part`
+--
+
+CREATE TABLE IF NOT EXISTS `order_part` (
+  `idorderpart` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `product_name` varchar(255) NOT NULL,
+  `product_price` double NOT NULL,
+  `product_nr` varchar(45) NOT NULL,
+  `order_idorder` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`idorderpart`,`order_idorder`),
+  KEY `fk_order_part_order_idx` (`order_idorder`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+--
+-- Constraints der exportierten Tabellen
+--
+
+--
+-- Constraints der Tabelle `order_part`
+--
+ALTER TABLE `order_part`
+  ADD CONSTRAINT `fk_order_part_order` FOREIGN KEY (`order_idorder`) REFERENCES `order` (`idorder`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
