@@ -6,8 +6,8 @@ $idcat = getEffectiveSetting('product', 'idcat', 2);
 
 $tpl = cSmartyFrontend::getInstance();
 
-$catCol = new cApiCategoryCollection();
-$idcats = $catCol->getAllChildCategoryIds($idcat);
+$productsCatCol = new cApiCategoryCollection();
+$idcats = $productsCatCol->getAllChildCategoryIds($idcat);
 
 $groupedProducts = array();
 

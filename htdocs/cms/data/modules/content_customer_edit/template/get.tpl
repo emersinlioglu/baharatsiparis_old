@@ -21,9 +21,6 @@
         {$label_fax}: {$fax}
     </label>
     <label>
-        {$label_fax}: {$fax}
-    </label>
-    <label>
         {$label_customernr}: {$customernr}
     </label>
     <label>

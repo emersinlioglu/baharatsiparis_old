@@ -1,42 +1,4 @@
-[2014-11-06 22:06:51] Warning: "Database failure: 1054 (Unknown column 'id' in 'field list') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 INSERT INTO `order` (`id`) VALUES ('')
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(677)
-	query() called in file class.item.collection.php(1061)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(289)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:06:51 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'field list') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 INSERT INTO `order` (`id`) VALUES ('')
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:06:51] Warning: "Database failure: 1064 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT LAST_INSERT_ID() as last_id FROM order
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(677)
-	query() called in file class.db.driver.handler.php(797)
-	getLastInsertedId() called in file class.item.collection.php(1064)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(289)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:06:51 Europe/Berlin] PHP Warning:  Database failure: 1064 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT LAST_INSERT_ID() as last_id FROM order
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:06:51] Warning: "Database failure: 1064 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(693)
-	nextRecord() called in file class.db.driver.handler.php(798)
-	getLastInsertedId() called in file class.item.collection.php(1064)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(289)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:06:51 Europe/Berlin] PHP Warning:  Database failure: 1064 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:06:51] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT * FROM `order` WHERE id = ''
+[2014-11-30 18:29:22] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s SELECT * FROM `order` WHERE id = '10'
 " at reportHalt() [class.db.driver.handler.php(977)]
 	reportHalt() called in file class.db.driver.handler.php(949)
 	halt() called in file class.db.driver.handler.php(677)
@@ -49,9 +11,9 @@
 	include() called in file include.front_content.php(447)
 	include() called in file front_content.php(36)
 
-[06-Nov-2014 22:06:51 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT * FROM `order` WHERE id = ''
+[30-Nov-2014 18:29:22 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s SELECT * FROM `order` WHERE id = '10'
  in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:06:51] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
+[2014-11-30 18:29:22] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s next_record called with no query pending in Module ID 50.
 " at reportHalt() [class.db.driver.handler.php(977)]
 	reportHalt() called in file class.db.driver.handler.php(949)
 	halt() called in file class.db.driver.handler.php(693)
@@ -64,177 +26,45 @@
 	include() called in file include.front_content.php(447)
 	include() called in file front_content.php(36)
 
-[06-Nov-2014 22:06:51 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
+[30-Nov-2014 18:29:22 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s next_record called with no query pending in Module ID 50.
  in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:06:51] Warning: "Database failure: 1054 (Unknown column 'idorder' in 'field list') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 INSERT INTO `order_part` (`idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 1kg roh Sonnenblumenkerne', '610', '2')
+[2014-11-30 18:29:22] Warning: "Database failure: 1452 (Cannot add or update a child row: a foreign key constraint fails (`baharatsiparis`.`order_part`, CONSTRAINT `fk_order_part_order` FOREIGN KEY (`order_idorder`) REFERENCES `order` (`idorder`) ON DELETE NO ACTION ON UPDATE NO ACTION)) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s INSERT INTO `order_part` (`order_idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 1kg roh Sonnenblumenkerne', '55', '2')
 " at reportHalt() [class.db.driver.handler.php(977)]
 	reportHalt() called in file class.db.driver.handler.php(949)
 	halt() called in file class.db.driver.handler.php(677)
 	query() called in file class.item.collection.php(1061)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
+	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(314)
 	eval() called in file include.con_editcontent.php(136)
 	include() called in file include.front_content.php(447)
 	include() called in file front_content.php(36)
 
-[06-Nov-2014 22:06:51 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'idorder' in 'field list') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 INSERT INTO `order_part` (`idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 1kg roh Sonnenblumenkerne', '610', '2')
+[30-Nov-2014 18:29:22 Europe/Berlin] PHP Warning:  Database failure: 1452 (Cannot add or update a child row: a foreign key constraint fails (`baharatsiparis`.`order_part`, CONSTRAINT `fk_order_part_order` FOREIGN KEY (`order_idorder`) REFERENCES `order` (`idorder`) ON DELETE NO ACTION ON UPDATE NO ACTION)) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s INSERT INTO `order_part` (`order_idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 1kg roh Sonnenblumenkerne', '55', '2')
  in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:06:51] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT * FROM `order_part` WHERE id = ''
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(677)
-	query() called in file class.item.php(130)
-	loadBy() called in file class.item.php(255)
-	loadByPrimaryKey() called in file class.item.collection.php(1026)
-	loadItem() called in file class.item.collection.php(1075)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:06:51 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT * FROM `order_part` WHERE id = ''
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:06:51] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(693)
-	nextRecord() called in file class.item.php(140)
-	loadBy() called in file class.item.php(255)
-	loadByPrimaryKey() called in file class.item.collection.php(1026)
-	loadItem() called in file class.item.collection.php(1075)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:06:51 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:06:51] Warning: "Database failure: 1054 (Unknown column 'idorder' in 'field list') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 INSERT INTO `order_part` (`idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 3kg roh Sonnenblumenkerne', '510', '3')
+[2014-11-30 18:29:22] Warning: "Database failure: 1452 (Cannot add or update a child row: a foreign key constraint fails (`baharatsiparis`.`order_part`, CONSTRAINT `fk_order_part_order` FOREIGN KEY (`order_idorder`) REFERENCES `order` (`idorder`) ON DELETE NO ACTION ON UPDATE NO ACTION)) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s INSERT INTO `order_part` (`order_idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 3kg roh Sonnenblumenkerne', '510', '3')
 " at reportHalt() [class.db.driver.handler.php(977)]
 	reportHalt() called in file class.db.driver.handler.php(949)
 	halt() called in file class.db.driver.handler.php(677)
 	query() called in file class.item.collection.php(1061)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
+	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(314)
 	eval() called in file include.con_editcontent.php(136)
 	include() called in file include.front_content.php(447)
 	include() called in file front_content.php(36)
 
-[06-Nov-2014 22:06:51 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'idorder' in 'field list') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 INSERT INTO `order_part` (`idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 3kg roh Sonnenblumenkerne', '510', '3')
+[30-Nov-2014 18:29:22 Europe/Berlin] PHP Warning:  Database failure: 1452 (Cannot add or update a child row: a foreign key constraint fails (`baharatsiparis`.`order_part`, CONSTRAINT `fk_order_part_order` FOREIGN KEY (`order_idorder`) REFERENCES `order` (`idorder`) ON DELETE NO ACTION ON UPDATE NO ACTION)) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s INSERT INTO `order_part` (`order_idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 3kg roh Sonnenblumenkerne', '510', '3')
  in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:06:51] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT * FROM `order_part` WHERE id = ''
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(677)
-	query() called in file class.item.php(130)
-	loadBy() called in file class.item.php(255)
-	loadByPrimaryKey() called in file class.item.collection.php(1026)
-	loadItem() called in file class.item.collection.php(1075)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:06:51 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT * FROM `order_part` WHERE id = ''
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:06:51] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(693)
-	nextRecord() called in file class.item.php(140)
-	loadBy() called in file class.item.php(255)
-	loadByPrimaryKey() called in file class.item.collection.php(1026)
-	loadItem() called in file class.item.collection.php(1075)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:06:51 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:06:51] Warning: "Database failure: 1054 (Unknown column 'idorder' in 'field list') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 INSERT INTO `order_part` (`idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 650g roh Sonnenblumenkerne', '510', '')
+[2014-11-30 18:29:22] Warning: "Database failure: 1452 (Cannot add or update a child row: a foreign key constraint fails (`baharatsiparis`.`order_part`, CONSTRAINT `fk_order_part_order` FOREIGN KEY (`order_idorder`) REFERENCES `order` (`idorder`) ON DELETE NO ACTION ON UPDATE NO ACTION)) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s INSERT INTO `order_part` (`order_idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 650g roh Sonnenblumenkerne', '510', '')
 " at reportHalt() [class.db.driver.handler.php(977)]
 	reportHalt() called in file class.db.driver.handler.php(949)
 	halt() called in file class.db.driver.handler.php(677)
 	query() called in file class.item.collection.php(1061)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
+	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(314)
 	eval() called in file include.con_editcontent.php(136)
 	include() called in file include.front_content.php(447)
 	include() called in file front_content.php(36)
 
-[06-Nov-2014 22:06:51 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'idorder' in 'field list') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 INSERT INTO `order_part` (`idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 650g roh Sonnenblumenkerne', '510', '')
+[30-Nov-2014 18:29:22 Europe/Berlin] PHP Warning:  Database failure: 1452 (Cannot add or update a child row: a foreign key constraint fails (`baharatsiparis`.`order_part`, CONSTRAINT `fk_order_part_order` FOREIGN KEY (`order_idorder`) REFERENCES `order` (`idorder`) ON DELETE NO ACTION ON UPDATE NO ACTION)) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s INSERT INTO `order_part` (`order_idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 650g roh Sonnenblumenkerne', '510', '')
  in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:06:51] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT * FROM `order_part` WHERE id = ''
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(677)
-	query() called in file class.item.php(130)
-	loadBy() called in file class.item.php(255)
-	loadByPrimaryKey() called in file class.item.collection.php(1026)
-	loadItem() called in file class.item.collection.php(1075)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:06:51 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT * FROM `order_part` WHERE id = ''
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:06:51] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(693)
-	nextRecord() called in file class.item.php(140)
-	loadBy() called in file class.item.php(255)
-	loadByPrimaryKey() called in file class.item.collection.php(1026)
-	loadItem() called in file class.item.collection.php(1075)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:06:51 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[06-Nov-2014 22:07:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136) : eval()'d code:213) in C:\www\baharatsiparis\htdocs\contenido\classes\content_types\class.content.type.imgeditor.php on line 150
-[06-Nov-2014 22:10:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136) : eval()'d code:213) in C:\www\baharatsiparis\htdocs\contenido\classes\content_types\class.content.type.imgeditor.php on line 150
-[06-Nov-2014 22:10:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136) : eval()'d code:213) in C:\www\baharatsiparis\htdocs\contenido\classes\content_types\class.content.type.imgeditor.php on line 150
-[06-Nov-2014 22:10:32 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\www\baharatsiparis\htdocs\contenido\includes\include.con_editcontent.php(136) : eval()'d code:213) in C:\www\baharatsiparis\htdocs\contenido\classes\content_types\class.content.type.imgeditor.php on line 150
-[2014-11-06 22:12:50] Warning: "Database failure: 1054 (Unknown column 'id' in 'field list') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 INSERT INTO `order` (`id`) VALUES ('')
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(677)
-	query() called in file class.item.collection.php(1061)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(289)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:12:50 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'field list') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 INSERT INTO `order` (`id`) VALUES ('')
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:12:50] Warning: "Database failure: 1064 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT LAST_INSERT_ID() as last_id FROM order
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(677)
-	query() called in file class.db.driver.handler.php(797)
-	getLastInsertedId() called in file class.item.collection.php(1064)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(289)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:12:50 Europe/Berlin] PHP Warning:  Database failure: 1064 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT LAST_INSERT_ID() as last_id FROM order
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:12:50] Warning: "Database failure: 1064 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(693)
-	nextRecord() called in file class.db.driver.handler.php(798)
-	getLastInsertedId() called in file class.item.collection.php(1064)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(289)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:12:50 Europe/Berlin] PHP Warning:  Database failure: 1064 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:12:50] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT * FROM `order` WHERE id = ''
+[2014-11-30 18:29:55] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s SELECT * FROM `order` WHERE id = '11'
 " at reportHalt() [class.db.driver.handler.php(977)]
 	reportHalt() called in file class.db.driver.handler.php(949)
 	halt() called in file class.db.driver.handler.php(677)
@@ -247,9 +77,9 @@
 	include() called in file include.front_content.php(447)
 	include() called in file front_content.php(36)
 
-[06-Nov-2014 22:12:50 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT * FROM `order` WHERE id = ''
+[30-Nov-2014 18:29:55 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s SELECT * FROM `order` WHERE id = '11'
  in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:12:50] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
+[2014-11-30 18:29:55] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s next_record called with no query pending in Module ID 50.
 " at reportHalt() [class.db.driver.handler.php(977)]
 	reportHalt() called in file class.db.driver.handler.php(949)
 	halt() called in file class.db.driver.handler.php(693)
@@ -262,131 +92,41 @@
 	include() called in file include.front_content.php(447)
 	include() called in file front_content.php(36)
 
-[06-Nov-2014 22:12:50 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
+[30-Nov-2014 18:29:55 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s next_record called with no query pending in Module ID 50.
  in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:12:50] Warning: "Database failure: 1054 (Unknown column 'idorder' in 'field list') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 INSERT INTO `order_part` (`idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 1kg roh Sonnenblumenkerne', '610', '2')
+[2014-11-30 18:29:55] Warning: "Database failure: 1452 (Cannot add or update a child row: a foreign key constraint fails (`baharatsiparis`.`order_part`, CONSTRAINT `fk_order_part_order` FOREIGN KEY (`order_idorder`) REFERENCES `order` (`idorder`) ON DELETE NO ACTION ON UPDATE NO ACTION)) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s INSERT INTO `order_part` (`order_idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 1kg roh Sonnenblumenkerne', '55', '2')
 " at reportHalt() [class.db.driver.handler.php(977)]
 	reportHalt() called in file class.db.driver.handler.php(949)
 	halt() called in file class.db.driver.handler.php(677)
 	query() called in file class.item.collection.php(1061)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
+	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(314)
 	eval() called in file include.con_editcontent.php(136)
 	include() called in file include.front_content.php(447)
 	include() called in file front_content.php(36)
 
-[06-Nov-2014 22:12:50 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'idorder' in 'field list') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 INSERT INTO `order_part` (`idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 1kg roh Sonnenblumenkerne', '610', '2')
+[30-Nov-2014 18:29:55 Europe/Berlin] PHP Warning:  Database failure: 1452 (Cannot add or update a child row: a foreign key constraint fails (`baharatsiparis`.`order_part`, CONSTRAINT `fk_order_part_order` FOREIGN KEY (`order_idorder`) REFERENCES `order` (`idorder`) ON DELETE NO ACTION ON UPDATE NO ACTION)) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s INSERT INTO `order_part` (`order_idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 1kg roh Sonnenblumenkerne', '55', '2')
  in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:12:50] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT * FROM `order_part` WHERE id = ''
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(677)
-	query() called in file class.item.php(130)
-	loadBy() called in file class.item.php(255)
-	loadByPrimaryKey() called in file class.item.collection.php(1026)
-	loadItem() called in file class.item.collection.php(1075)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:12:50 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT * FROM `order_part` WHERE id = ''
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:12:50] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(693)
-	nextRecord() called in file class.item.php(140)
-	loadBy() called in file class.item.php(255)
-	loadByPrimaryKey() called in file class.item.collection.php(1026)
-	loadItem() called in file class.item.collection.php(1075)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:12:50 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:12:50] Warning: "Database failure: 1054 (Unknown column 'idorder' in 'field list') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 INSERT INTO `order_part` (`idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 3kg roh Sonnenblumenkerne', '510', '3')
+[2014-11-30 18:29:55] Warning: "Database failure: 1452 (Cannot add or update a child row: a foreign key constraint fails (`baharatsiparis`.`order_part`, CONSTRAINT `fk_order_part_order` FOREIGN KEY (`order_idorder`) REFERENCES `order` (`idorder`) ON DELETE NO ACTION ON UPDATE NO ACTION)) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s INSERT INTO `order_part` (`order_idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 3kg roh Sonnenblumenkerne', '510', '3')
 " at reportHalt() [class.db.driver.handler.php(977)]
 	reportHalt() called in file class.db.driver.handler.php(949)
 	halt() called in file class.db.driver.handler.php(677)
 	query() called in file class.item.collection.php(1061)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
+	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(314)
 	eval() called in file include.con_editcontent.php(136)
 	include() called in file include.front_content.php(447)
 	include() called in file front_content.php(36)
 
-[06-Nov-2014 22:12:50 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'idorder' in 'field list') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 INSERT INTO `order_part` (`idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 3kg roh Sonnenblumenkerne', '510', '3')
+[30-Nov-2014 18:29:55 Europe/Berlin] PHP Warning:  Database failure: 1452 (Cannot add or update a child row: a foreign key constraint fails (`baharatsiparis`.`order_part`, CONSTRAINT `fk_order_part_order` FOREIGN KEY (`order_idorder`) REFERENCES `order` (`idorder`) ON DELETE NO ACTION ON UPDATE NO ACTION)) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s INSERT INTO `order_part` (`order_idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 3kg roh Sonnenblumenkerne', '510', '3')
  in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:12:50] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT * FROM `order_part` WHERE id = ''
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(677)
-	query() called in file class.item.php(130)
-	loadBy() called in file class.item.php(255)
-	loadByPrimaryKey() called in file class.item.collection.php(1026)
-	loadItem() called in file class.item.collection.php(1075)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:12:50 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT * FROM `order_part` WHERE id = ''
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:12:50] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(693)
-	nextRecord() called in file class.item.php(140)
-	loadBy() called in file class.item.php(255)
-	loadByPrimaryKey() called in file class.item.collection.php(1026)
-	loadItem() called in file class.item.collection.php(1075)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:12:50 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:12:50] Warning: "Database failure: 1054 (Unknown column 'idorder' in 'field list') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 INSERT INTO `order_part` (`idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 650g roh Sonnenblumenkerne', '510', '')
+[2014-11-30 18:29:55] Warning: "Database failure: 1452 (Cannot add or update a child row: a foreign key constraint fails (`baharatsiparis`.`order_part`, CONSTRAINT `fk_order_part_order` FOREIGN KEY (`order_idorder`) REFERENCES `order` (`idorder`) ON DELETE NO ACTION ON UPDATE NO ACTION)) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s INSERT INTO `order_part` (`order_idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 650g roh Sonnenblumenkerne', '510', '')
 " at reportHalt() [class.db.driver.handler.php(977)]
 	reportHalt() called in file class.db.driver.handler.php(949)
 	halt() called in file class.db.driver.handler.php(677)
 	query() called in file class.item.collection.php(1061)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
+	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(314)
 	eval() called in file include.con_editcontent.php(136)
 	include() called in file include.front_content.php(447)
 	include() called in file front_content.php(36)
 
-[06-Nov-2014 22:12:50 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'idorder' in 'field list') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 INSERT INTO `order_part` (`idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 650g roh Sonnenblumenkerne', '510', '')
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:12:50] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT * FROM `order_part` WHERE id = ''
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(677)
-	query() called in file class.item.php(130)
-	loadBy() called in file class.item.php(255)
-	loadByPrimaryKey() called in file class.item.collection.php(1026)
-	loadItem() called in file class.item.collection.php(1075)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:12:50 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 SELECT * FROM `order_part` WHERE id = ''
- in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329
-[2014-11-06 22:12:50] Warning: "Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
-" at reportHalt() [class.db.driver.handler.php(977)]
-	reportHalt() called in file class.db.driver.handler.php(949)
-	halt() called in file class.db.driver.handler.php(693)
-	nextRecord() called in file class.item.php(140)
-	loadBy() called in file class.item.php(255)
-	loadByPrimaryKey() called in file class.item.collection.php(1026)
-	loadItem() called in file class.item.collection.php(1075)
-	createNewItem() called in file include.con_editcontent.php(136) : eval()'d code(316)
-	eval() called in file include.con_editcontent.php(136)
-	include() called in file include.front_content.php(447)
-	include() called in file front_content.php(36)
-
-[06-Nov-2014 22:12:50 Europe/Berlin] PHP Warning:  Database failure: 1054 (Unknown column 'id' in 'where clause') - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=m79d3tlkqdub1m4bf3tgm0l132he73o6 next_record called with no query pending in Module ID 50.
+[30-Nov-2014 18:29:55 Europe/Berlin] PHP Warning:  Database failure: 1452 (Cannot add or update a child row: a foreign key constraint fails (`baharatsiparis`.`order_part`, CONSTRAINT `fk_order_part_order` FOREIGN KEY (`order_idorder`) REFERENCES `order` (`idorder`) ON DELETE NO ACTION ON UPDATE NO ACTION)) - /contenido/external/backendedit/front_content.php?changeview=edit&client=1&lang=1&action=con_editart&idartlang=2&idart=2&idcat=1&tmpchangelang=&contenido=s6u0js3iae3cl43v44krjgsr1nhuh15s INSERT INTO `order_part` (`order_idorder`, `product_name`, `product_nr`, `product_price`) VALUES ('', 'Kalinka 650g roh Sonnenblumenkerne', '510', '')
  in C:\www\baharatsiparis\htdocs\contenido\includes\functions.general.php on line 1329

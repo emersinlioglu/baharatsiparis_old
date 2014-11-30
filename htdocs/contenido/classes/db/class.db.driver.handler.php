@@ -794,7 +794,7 @@ abstract class cDbDriverHandler {
             return $lastId;
         }
 
-        $this->query('SELECT LAST_INSERT_ID() as last_id FROM ' . $tableName);
+        $this->query('SELECT LAST_INSERT_ID() as last_id FROM `' . $tableName . '`');
         if ($this->nextRecord()) {
             $lastId = $this->f('last_id');
         }
